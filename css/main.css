@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/open-sans-v20-latin-regular.woff2') format('woff2'), 
+    url('../fonts/open-sans-v20-latin-regular.woff') format('woff'); 
+ }
+ 
+ @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/open-sans-v20-latin-700.woff2') format('woff2'), 
+    url('../fonts/open-sans-v20-latin-700.woff') format('woff'); 
+ }
+ 
+ *,
+ *::before,
+ *::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+ 
+ body {
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    padding-top: 85px
+ }
+ 
+ .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+ }
+ 
+ img {
+    vertical-align: middle;
+ }
+ 
+ .container {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+ }
+
+ 
+ 
+ .header .container {
+    display: flex;
+    align-items: center;
+    padding: 43px 20px;
+ }
+ 
+ .nav {
+    display: flex;
+    margin-left: auto;
+ }
+ nav-logo img{
+    width: 203px;
+    height: 24px;
+ }
+ 
+ .nav-list {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 0;
+    list-style-type: none;
+ }
+ .nav-iteam{
+    text-decoration: none;
+    margin: 33px;
+    color: #83888F;
+ }
+ .main{
+    margin: 20px 20px;
+ }
+ .main .container {
+    width: 1320px;
+    height: 600px;
+    margin: 20px 0;
+   }
+    
+ .section{
+     width: 1320px;
+     height: 600px;
+     background-image: url("../images/Bitmap.jpg");
+    background-size: 1320px 600px;
+    
+ 
+ }
+.section-iteam{
+   width: 493px;
+   height: 367px;
+   color: white;
+   padding: 137px 85px;
+   padding: 0 auto;
+   text-align: center;
+}
+.section-link{
+   color: white;
+   width: 217px;
+   height: 57px;
+   padding: 15px 31px;
+background: #0E8784;
+border-radius: 6px;
+text-decoration: none;
+text-align: center;
+justify-content: center;
+}
